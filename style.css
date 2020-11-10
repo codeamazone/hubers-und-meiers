@@ -8,3 +8,58 @@ div {
   border: 1px solid black;
   margin: 5px;
 }
+
+.huber {
+  background: salmon;
+}
+
+.meier {
+  background: blue;
+}
+
+/* #lisa,
+#georg,
+#susi {
+  background: olive;
+} */
+
+/* div.huber {
+  background: green;
+} */
+
+.huber div {
+  background: green;
+}
+
+#lisa {
+  background: black;
+}
+
+div#lisa {
+  background: rosybrown;
+}
+
+.huber #lisa {
+  background: turquoise;
+}
+
+div.huber #lisa {
+  background: yellow;
+}
+
+/* Die nächsten drei haben eine Spezifität von 1,1,2*/
+body div.huber #lisa {
+  background: wheat;
+}
+
+html div.huber #lisa {
+  background: yellowgreen;
+}
+
+div.huber div#lisa {
+  background: purple;
+}
+
+#luis.huber {
+  background: green;
+}

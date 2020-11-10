@@ -5,6 +5,12 @@
     <title>Spezifität CSS</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+      #luis.huber {
+        background: yellow !important;
+      }
+    </style>
   </head>
   <body>
     <div class="huber">
@@ -14,8 +20,10 @@
     </div>
 
     <div class="meier">
-      <div id="sepp"></div>
-      <div id="luis"></div>
+      <div id="sepp">
+        <a href="unterseite.html" style="color: cornsilk">Zur Unterseite</a>
+      </div>
+      <div id="luis" class="huber" style="background: red"></div>
       <div id="brigitte"></div>
     </div>
   </body>
